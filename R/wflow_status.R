@@ -186,9 +186,14 @@ wflow_status <- function(files = NULL, include_git_status = TRUE, project = ".")
   }
 
   # Do published files have subsequently committed changes?
+  # THIS IS CHANGED
+   #files_outdated <- get_outdated_files(r,
+  #                                      absolute(files_analysis[published]),
+  #                                      outdir = absolute(o$docs))
   files_outdated <- get_outdated_files(r,
                                        absolute(files_analysis[published]),
                                        outdir = absolute(o$docs))
+  #######################
   files_outdated <- relative(files_outdated)
   mod_committed <- files_analysis %in% files_outdated
 
