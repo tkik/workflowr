@@ -3,16 +3,13 @@
 ^\.Rproj\.user$
 ^workflowr\.Rproj$
 ^docs$
-^\.travis\.yml$
 ^\.codecov\.yml$
 ^_pkgdown\.yaml$
 ^LICENSE\.md$
-^appveyor\.yml$
 tar\.gz$
 ^cran-comments\.md$
 ^\.github$
 ^CODE_OF_CONDUCT\.md$
 ^Meta$
 ^doc$
-^\.circleci$
 ^scripts$
